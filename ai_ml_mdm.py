@@ -28,7 +28,8 @@ from sklearn.svm import SVC
 from sklearn.neighbors import KNeighborsClassifier
 
 # Load the dataset
-ipo_data = pd.read_csv('/content/sample_data/cleaned_ipo_data.csv')
+ipo_data = pd.read_csv('cleaned_ipo_data.csv')
+
 
 # Display the first 5 rows
 print(ipo_data.head())
